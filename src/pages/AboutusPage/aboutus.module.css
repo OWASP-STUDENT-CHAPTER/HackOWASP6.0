@@ -21,8 +21,8 @@
 .card2{
     display: flex;
     justify-content: center;
-    width:100%;
-    padding-left: 8vw;
+    /* width:100%; */
+    padding-left: 15vw;
     margin-top: -3vh;
     /* padding-left: 30vw; */
 }
@@ -47,12 +47,12 @@
     border-radius: 20px;
     box-shadow: 4px 4px #0401B9;
     border:solid 5px #1F8FBF;
-	transform: rotateY(45deg);
+	/* transform: rotateY(45deg); */
 	animation: rotateAnimation 4s infinite linear;
 }
 
 .minicard2 {
-    margin-left: 10vw;
+    margin-left: 2vw;
     margin-top: -10vh;
     display: flex;
     justify-content: center;
@@ -66,11 +66,11 @@
     border-radius: 20px;
     box-shadow: 4px 4px #0401B9;
     border:solid 5px #1F8FBF;
-	transform: rotateY(45deg);
+	/* transform: rotateY(45deg); */
 	animation: rotateAnimation 4s infinite linear;
 }
 
-@keyframes rotateAnimation {
+/* @keyframes rotateAnimation {
 	from {transform: rotateY(45deg);}
 	to {transform: rotateY(225deg);}
-}
+} */

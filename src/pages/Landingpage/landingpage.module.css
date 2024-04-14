@@ -1,6 +1,6 @@
 .landingpage{
     max-height:100vh;
-    height:100vw;
+    width:100%;
     background-image: linear-gradient(#C99F79,#F6DEBA);
 }
 
