@@ -1,13 +1,10 @@
 import React from 'react'
-import { useEffect } from 'react';
-
 import styles from './landingcontent.module.css';
 import folderopen from '../../assets/landingpage/folderopen.png'
 import floppy from '../../assets/landingpage/floppy.png'
 import folder from '../../assets/landingpage/folder.png'
 import sand from '../../assets/landingpage/sand.png'
 import computer from '../../assets/landingpage/computer.png'
-import devfolio from '../../assets/landingpage/01.png'
 
 
 const Landingcontent = () => {
