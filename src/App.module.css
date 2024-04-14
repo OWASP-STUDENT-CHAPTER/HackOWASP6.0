@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  height:100vh;
+  /* height:100vh; */
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
 }
 
 .App-logo {

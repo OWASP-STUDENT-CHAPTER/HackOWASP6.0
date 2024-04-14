@@ -27,7 +27,7 @@ const Landingcontent = () => {
       <div 
         class="apply-button" 
         className={styles.apply_button}
-        data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+        data-hackathon-slug="hackowasp6"
         data-button-theme="light"
         // style="height: 44px; width: 312px"
       ></div>

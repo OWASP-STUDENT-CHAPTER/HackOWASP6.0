@@ -3,3 +3,7 @@
     height:100vw;
     background-image: linear-gradient(#C99F79,#F6DEBA);
 }
+
+.landingpage::-webkit-scrollbar {
+    display: none;
+}
