@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import MySVGComponent from './pages/Landingpage/landingpage';
+// import logo from './logo.svg';
+import styles from './App.module.css';
+// import MySVGComponent from './pages/Landingpage/landingpage2';
 import Navbar from './components/Navbar';
+import LandingPage from './pages/Landingpage/landingpage';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Navbar />
-      <h1>Hackowasp 6.0</h1>
+      <LandingPage />
     </div>
   );
 }

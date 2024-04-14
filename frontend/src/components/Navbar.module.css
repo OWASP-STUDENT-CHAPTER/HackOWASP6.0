@@ -4,6 +4,7 @@
 }
 
 .navbarcomp{
+    position: fixed;
     width:100%;
     display: flex;
     align-items: center;
@@ -13,6 +14,8 @@
 }
 
 .navbar{
+    border-radius: 20px;
+    border:solid 3px #F2F252;
     font-family: futilepro;
     color:#F2F252;
     display: flex;

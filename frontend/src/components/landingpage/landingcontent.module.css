@@ -1,0 +1,78 @@
+@font-face {
+    font-family: futilepro;
+    src: url('../../assets/fonts/FutilePro.ttf');
+}
+
+.landingcontent{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-bottom: 3vw; */
+}
+
+.content{
+    width:80vw;
+    padding: 3vw 6vw 2vw 6vw;
+    /* padding-bottom: 10vw; */
+    margin-bottom: 3vw;
+    border-radius: 20px;
+    border:solid 5px #1F8FBF; 
+}
+
+.hackowasptitle{
+    /* top:10vw; */
+    font-family: futilepro;
+    color: #EA6032;
+    font-size:150px;
+    text-shadow: 8px 8px #0401B9;
+}
+
+.animated_icons{
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+}
+
+.animated_icons img{
+    scale:0.7;
+    padding:20px;
+}
+
+.animated_icons .icon1 {
+    animation: mover 1s infinite  alternate;
+}
+
+.animated_icons .icon2 {
+    animation: mover2 3s infinite  alternate;
+}
+
+.animated_icons .icon3 {
+    animation: mover 0.3s infinite  alternate;
+}
+
+.animated_icons .icon4 {
+    animation: mover2 1s infinite  alternate;
+}
+
+.animated_icons .icon5 {
+    animation: mover .6s infinite  alternate;
+}
+
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+@keyframes mover2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
