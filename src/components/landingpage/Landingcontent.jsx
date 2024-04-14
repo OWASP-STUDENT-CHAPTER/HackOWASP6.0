@@ -24,12 +24,13 @@ const Landingcontent = () => {
     <div className={styles.landingcontent}>
       <div className={styles.content}>
       <div className={styles.hackowasptitle}>HackOWASP<br />6.0</div>
+      <br />
       <div 
         class="apply-button" 
-        className={styles.apply_button}
+        // className={styles.apply_button}
         data-hackathon-slug="hackowasp6"
         data-button-theme="light"
-        // style="height: 44px; width: 312px"
+        style={{height: '44px', width: '312px'}}
       ></div>
       <div className={styles.animated_icons}>
         <div className={styles.icon1}>

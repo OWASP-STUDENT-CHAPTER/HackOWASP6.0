@@ -3,14 +3,6 @@
     src: url('../../assets/fonts/FutilePro.ttf');
 }
 
-.apply_button{
-    padding: 2vw 0vw;
-    /* border: solid 1px black; */
-    /* height:44px;
-    width:312px; */
-    /* border: 2px solid black; */
-}
-
 .landingcontent{
     height:100vh;
     width:100%;
