@@ -1,0 +1,30 @@
+@font-face {
+    font-family: futilepro;
+    src: url('../assets/fonts/FutilePro.ttf');
+}
+
+.navbarcomp{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:7vh;
+    /* top:1vh; */
+}
+
+.navbar{
+    font-family: futilepro;
+    color:#F2F252;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-around;
+    align-items: center;
+    width:1130px;
+    height: 87px;
+    /* top:1vh; */
+    background-image: url('../../public/navbarbg.svg');
+}
+
+.home{
+    text-shadow: 4px 4px #0401B9;
+}
