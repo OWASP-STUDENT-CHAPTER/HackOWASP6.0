@@ -22,11 +22,55 @@
     display: flex;
     justify-content: center;
     width:100%;
+    padding-left: 8vw;
     margin-top: -3vh;
     /* padding-left: 30vw; */
 }
 
 .card1{
+    display:flex;
     padding-left: 5vw;
     padding-top: 3vh;
+}
+
+.minicard1 {
+    margin-left: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: futilepro;
+	width: 140px;
+	height: 140px;
+	background: #C99F79;
+    color: #F2F252;
+    border-radius: 20px;
+    box-shadow: 4px 4px #0401B9;
+    border:solid 5px #1F8FBF;
+	transform: rotateY(45deg);
+	animation: rotateAnimation 4s infinite linear;
+}
+
+.minicard2 {
+    margin-left: 10vw;
+    margin-top: -10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: futilepro;
+	width: 140px;
+	height: 140px;
+	background: #BEC8CB;
+    color: #F2F252;
+    border-radius: 20px;
+    box-shadow: 4px 4px #0401B9;
+    border:solid 5px #1F8FBF;
+	transform: rotateY(45deg);
+	animation: rotateAnimation 4s infinite linear;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
 }

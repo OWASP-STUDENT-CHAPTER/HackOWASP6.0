@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from './Navbar.module.css';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
         <div className={styles.navbarcomp}>
             <div className={styles.navbar}>
                 <div>
-                    <p className={styles.home}>Hackowasp 6</p>
+                    <Link activeClass="active" smooth spy to="landingpage"><p className={styles.home}>Hackowasp 6</p></Link>
                 </div>
                 <div>
-                    <p className={styles.aboutus}>About Us</p>
+                    <Link activeClass="active" smooth spy to="aboutus"><p className={styles.aboutus}>About us</p></Link>
                 </div>
                 <div>
                     <p className={styles.tracks}>Tracks</p>

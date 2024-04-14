@@ -4,13 +4,14 @@ import styles from './App.module.css';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutusPage/aboutus';
 import LandingPage from './pages/Landingpage/landingpage';
+// import { Link } from "react-scroll";
 
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
-      <LandingPage />
-      <AboutUs />
+      <LandingPage id="landingpage" />
+      <AboutUs id="aboutus"/>
     </div>
   );
 }
