@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import './hamburger.css'
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
+
 import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png'
+
 function ScrollSpyNavigation() {
     useEffect(() => {
         const sections = document.querySelectorAll("section[id]");
