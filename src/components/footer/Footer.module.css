@@ -46,4 +46,6 @@
     display: flex;
     gap: 19px;
     margin-left: 8rem;
+    list-style-type: none;
 }
+
