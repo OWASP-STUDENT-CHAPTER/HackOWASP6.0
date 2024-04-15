@@ -25,6 +25,8 @@
     font-size: 60px;
     color: #EA6032;
     margin-bottom: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .contact{
@@ -38,8 +40,10 @@
     font-family: futilepro;
     font-size: 60px;
     color: #EA6032;
-    border-color: black;
-    border-width: 10px outside;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* border-color: black;
+    border-width: 10px outside; */
 }
 
 .links{
