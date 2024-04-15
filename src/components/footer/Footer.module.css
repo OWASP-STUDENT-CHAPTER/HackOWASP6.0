@@ -1,0 +1,55 @@
+@font-face {
+    font-family: futilepro;
+    src: url('../../assets/fonts/FutilePro.ttf');
+}
+
+.footercomp{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: url("../../assets/footer/footer1.png");
+    gap: 1.5rem;
+    width: 100%;
+    background-color: #3798C3;
+    /* height: 204px; */
+    height: 12.75rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 10rem; */
+}
+
+.social > h1{
+    font-family: futilepro;
+    font-size: 60px;
+    color: #EA6032;
+    margin-bottom: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.75rem;
+    vertical-align: middle;
+}
+
+.contact > h1{
+    font-family: futilepro;
+    font-size: 60px;
+    color: #EA6032;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* border-color: black;
+    border-width: 10px outside; */
+}
+
+.links{
+    display: flex;
+    gap: 19px;
+    margin-left: 8rem;
+    list-style-type: none;
+}
+
