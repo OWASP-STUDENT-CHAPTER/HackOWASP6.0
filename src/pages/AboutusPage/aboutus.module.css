@@ -70,6 +70,37 @@
 	animation: rotateAnimation 4s infinite linear;
 }
 
+@media only screen and (max-width: 500px) {
+    .card2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* width:100%; */
+        padding-left: 2vw;
+        margin-top: 0vh;
+        /* padding-left: 30vw; */
+    }
+    
+    .card1{
+        flex-direction: column;
+        display:flex;
+        padding-left: 2vw;
+        padding-top: 0vh;
+    }
+    
+    .minicard1 {
+        visibility: hidden;
+        /* margin-left: 3vw; */
+    }
+
+    .minicard2 {
+        visibility: hidden;
+        /* margin-left: 2vw;
+        margin-top: 1vh; */
+    }
+
+}
+
 /* @keyframes rotateAnimation {
 	from {transform: rotateY(45deg);}
 	to {transform: rotateY(225deg);}

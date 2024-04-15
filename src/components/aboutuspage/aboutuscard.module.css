@@ -21,3 +21,14 @@
     font-size: 26px;
 }
 
+@media only screen and (max-width: 500px) {
+    .aboutuscard{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        /* width:100%; */
+        padding-left: 2vw;
+        margin-top: 0vh;
+        /* padding-left: 30vw; */
+    }
+}
