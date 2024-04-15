@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className={styles.navbarcomp}>
             <div className={styles.navbar}>
                 <div>
-                    <Link activeClass="active" smooth spy to="landingpage"><p className={styles.home}>Hackowasp 6</p></Link>
+                    <Link activeClass="active" smooth spy to="landingpage"><p className={styles.home}>Hackowasp 5</p></Link>
                 </div>
                 <div>
                     <Link activeClass="active" smooth spy to="aboutus"><p className={styles.aboutus}>About us</p></Link>

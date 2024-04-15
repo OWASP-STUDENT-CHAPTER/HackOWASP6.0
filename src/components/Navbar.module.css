@@ -3,14 +3,14 @@
     src: url('../assets/fonts/FutilePro.ttf');
 }
 
-.navbarcomp{
+.navbarcomp {
     z-index: 999;
     position: fixed;
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top:4vh;
+    padding-top: 4vh;
     /* top:1vh; */
 }
 
@@ -18,21 +18,39 @@
     display: none;
 }
 
-.navbar{
+.navbar {
     border-radius: 20px;
-    border:solid 3px #F2F252;
+    border: solid 3px #F2F252;
     font-family: futilepro;
-    color:#F2F252;
+    color: #F2F252;
     display: flex;
     font-size: 35px;
     justify-content: space-around;
     align-items: center;
-    width:1130px;
+    width: 110px;
     height: 87px;
     /* top:1vh; */
     background-image: url('../../public/navbarbg.svg');
 }
 
-.home{
+.home {
     text-shadow: 4px 4px #0401B9;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        border-radius: 20px;
+        border: solid 3px #F2F252;
+        font-family: futilepro;
+        color: #F2F252;
+        display: flex;
+        font-size: 35px;
+        justify-content: space-around;
+        align-items: center;
+        width: 110px;
+        height: 87px;
+        /* top:1vh; */
+        background-image: url('../../public/navbarbg.svg');
+    }
+
 }
