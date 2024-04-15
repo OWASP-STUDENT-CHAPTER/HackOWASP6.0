@@ -1,0 +1,84 @@
+.sponsorpage {
+    max-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#C99F79, #F6DEBA);
+    padding: 5vh 0;
+}
+
+.sponsorbutton{
+    padding-top: 3vh;
+}
+
+.sponsorbutton button{
+    font-family: futilepro;
+    color:#F2F252;
+    font-size:20px;
+    width:200px;
+    height:40px;
+    background-color: #EA6032;
+    border: solid 2px #1F8FBF;
+    box-shadow: 4px 4px #0401B9;
+}
+
+.titleheading{
+    padding-top: 3vh;
+    color: #F2F252;
+    font-size: 60px;
+    font-family: futilepro;
+    text-shadow: 4px 4px #0401B9;
+}
+
+.sponsorheading{
+    font-family: futilepro;
+    color: #EA6032;
+    font-size:100px;
+    text-shadow: 8px 8px #0401B9;
+    padding-left: 6vw;
+}
+
+.sponsortitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sponsorbutton{
+    padding-right: 6vw;
+}
+
+.gridContainer {
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); /* Adjust the column width as needed */
+    grid-gap: 20px; /* Adjust the gap between items */
+}  
+
+@media screen and (max-width: 480px){
+
+    .sponsorheading{
+        font-size:80px;
+    }
+
+    .sponsortitle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    .titleheading{
+        font-size:40px;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+
+    .gridContainer {
+        padding-top: 3vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Adjust the column width as needed */
+        grid-gap: 20px; /* Adjust the gap between items */
+    }
+}
+

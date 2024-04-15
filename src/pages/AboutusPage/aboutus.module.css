@@ -82,4 +82,8 @@
     .aboutus{
         height:fit-content;
     }
+
+    .aboutusheading{
+        font-size:80px;
+    }
 }
