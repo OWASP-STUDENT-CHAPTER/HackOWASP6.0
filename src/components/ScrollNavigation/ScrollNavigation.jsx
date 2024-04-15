@@ -3,7 +3,7 @@ import './hamburger.css'
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import TracksPage from '../../pages/TracksPage/trackspage';
-
+import ham from './../../../src/assets/navbar/hamburger.png'
 function ScrollSpyNavigation() {
     useEffect(() => {
         const sections = document.querySelectorAll("section[id]");
@@ -31,6 +31,10 @@ function ScrollSpyNavigation() {
         };
     }, []);
 
+    const hamburgerHanlder = () => {
+        const hamPopup = document.querySelector('.ham-popup');
+        hamPopup.style.display = hamPopup.style.display === 'none' ? 'flex' : 'none';
+    }
     return (
         <div>
             <div className="side-bar">
@@ -40,6 +44,13 @@ function ScrollSpyNavigation() {
                     <div className='linksOnNavbar'><a href="#services">Tracks</a></div>
                     <div className='linksOnNavbar'> <a href="#timeline">Timeline</a></div>
                     <div className='linksOnNavbar'><a href="#sponsors">Sponsors</a></div>
+                    <div className='ham'><img src={ham} alt="hamburger" height={40} onClick={hamburgerHanlder} /></div>
+                </div>
+                <div className='ham-popup navigation'>
+                    <div className='ham-icons'><a href="#about">About</a></div>
+                    <div className='ham-icons'><a href="#services">Tracks</a></div>
+                    <div className='ham-icons'> <a href="#timeline">Timeline</a></div>
+                    <div className='ham-icons'><a href="#sponsors">Sponsors</a></div>
                 </div>
             </div>
             <div className="main-content">

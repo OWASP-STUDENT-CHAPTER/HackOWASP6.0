@@ -67,6 +67,13 @@ h1 {
   font-weight: 600;
 }
 
+.ham {
+  display: none;
+}
+
+.ham-popup {
+  display: none;
+}
 
 @media screen and (max-width: 480px) {
 
@@ -77,19 +84,40 @@ h1 {
     color: #F2F252;
     display: flex;
     font-size: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 450px;
     height: 87px;
+    padding: 20px;
     /* top:1vh; */
     background-image: url('../../../public/navbarbg.svg');
   }
 
-  .home{
+  .home {
     width: 100px;
   }
- .linksOnNavbar{
-  font-size: 15px;
- }
+
+  .linksOnNavbar {
+    display: none;
+  }
+
+  .ham {
+    display: block;
+  }
+
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ham-popup {
+    display: none;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .ham-icons {
+    padding: 0.5rem;
+  }
 
 }
