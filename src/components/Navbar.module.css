@@ -37,20 +37,3 @@
     text-shadow: 4px 4px #0401B9;
 }
 
-@media screen and (max-width: 480px) {
-    .navbar {
-        border-radius: 20px;
-        border: solid 3px #F2F252;
-        font-family: futilepro;
-        color: #F2F252;
-        display: flex;
-        font-size: 35px;
-        justify-content: space-around;
-        align-items: center;
-        width: 110px;
-        height: 87px;
-        /* top:1vh; */
-        background-image: url('../../public/navbarbg.svg');
-    }
-
-}
