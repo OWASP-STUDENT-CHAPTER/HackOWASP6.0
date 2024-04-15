@@ -8,6 +8,7 @@ function App() {
   return (
     <div className={styles.App}>
       <ScrollSpyNavigation />
+      {/* <br /> */}
       <Footer />
     </div>
   );
