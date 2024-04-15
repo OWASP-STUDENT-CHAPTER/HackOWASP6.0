@@ -68,7 +68,7 @@ function ScrollSpyNavigation() {
                     {/* <h1>timeline</h1> */}
                 </section>
                 <section id="sponsors">
-                    {/* <h1>sponsors</h1> */}
+                    <Sponsorpage />
                 </section>
             </div>
         </div>
