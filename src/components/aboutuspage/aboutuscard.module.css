@@ -5,13 +5,14 @@
     align-items: center;
     background-color: #EA6032;
     border: solid 4px #1F8FBF;
-    height:30vh;
+    height:35vh;
     width:45vw;
     font-family: pixelar;
     color: #F6DEBA;
     font-size:24px;
     box-shadow: 5px 5px #0401B9;
-    padding:0 10px 20px 10px;
+    padding:20px 10px 20px 10px;
+    overflow-y: auto;
 }
 
 .aboutuscardheading{
