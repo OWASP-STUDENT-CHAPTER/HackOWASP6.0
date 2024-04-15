@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './hamburger.css'
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
+import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
 // import TracksPage from '../../pages/TracksPage/trackspage';
 
 function ScrollSpyNavigation() {
@@ -56,7 +57,7 @@ function ScrollSpyNavigation() {
             {/* <h1>timeline</h1> */}
         </section>
         <section id="sponsors">
-            {/* <h1>sponsors</h1> */}
+            <Sponsorpage />
         </section>
         </div>
     </div>
