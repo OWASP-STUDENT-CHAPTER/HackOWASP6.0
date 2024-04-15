@@ -1,12 +1,14 @@
 .aboutus{
-    height:100vh;
+    height:105vh;
     width:100%;
     background-image: linear-gradient(#F6DEBA, #C99F79);
+    /* padding-bottom: 105vh; */
 }
 
 .aboutus::-webkit-scrollbar {
     display: none;
 }
+
 
 .aboutusheading{
     font-family: futilepro;
@@ -24,6 +26,7 @@
     /* width:100%; */
     padding-left: 15vw;
     margin-top: -3vh;
+    padding-bottom: 10vh;
     /* padding-left: 30vw; */
 }
 
@@ -74,3 +77,9 @@
 	from {transform: rotateY(45deg);}
 	to {transform: rotateY(225deg);}
 } */
+
+@media only screen and (max-width: 500px) {
+    .aboutus{
+        height:fit-content;
+    }
+}
