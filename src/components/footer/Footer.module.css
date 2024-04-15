@@ -1,0 +1,32 @@
+@font-face {
+    font-family: futilepro;
+    src: url('../../assets/fonts/FutilePro.ttf');
+}
+
+.footercomp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    width: 100%;
+    background-image: url("../../assets/footer/footer.png");
+    background-color: #3798C3;
+    height: 20rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social > h1{
+    font-family: futilepro;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > h1{
+    font-family: futilepro;
+}

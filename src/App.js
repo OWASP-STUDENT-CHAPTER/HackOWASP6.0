@@ -4,6 +4,7 @@ import styles from './App.module.css';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutusPage/aboutus';
 import LandingPage from './pages/Landingpage/landingpage';
+import Footer from './components/footer/Footer';
 // import { Link } from "react-scroll";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <LandingPage id="landingpage" />
       <AboutUs id="aboutus"/>
+      <Footer />
     </div>
   );
 }
