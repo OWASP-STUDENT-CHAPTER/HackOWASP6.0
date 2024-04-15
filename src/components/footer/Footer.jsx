@@ -16,6 +16,7 @@ const Footer = () =>{
                 <h1>
                     GET IN TOUCH
                 </h1>
+                <span></span>
             </div>
         </div>
     </footer>
