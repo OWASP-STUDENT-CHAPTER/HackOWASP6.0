@@ -1,4 +1,4 @@
-.track_card{
+    .track_card{
     height: 270px;
     width: 425px;
     background-color: #1F8FBF;
@@ -24,3 +24,4 @@
     border-color: #EA6032;
     font-family: futilepro;
 }
+

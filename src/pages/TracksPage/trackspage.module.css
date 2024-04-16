@@ -14,3 +14,14 @@
     padding-top: 16vh;
     padding-left: 6vw;
 }
+
+
+.gridContainer {
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); /* Adjust the column width as needed */
+    grid-gap: 20px; /* Adjust the gap between items */
+}  
