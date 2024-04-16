@@ -1,0 +1,16 @@
+.trackspage{
+    height:105vh;
+    width:100%;
+    background-image: linear-gradient(#C99F79,#F6DEBA);
+    /* padding-bottom: 105vh; */
+}
+
+.tracks_heading{
+    font-family: futilepro;
+    color: #EA6032;
+    font-size:100px;
+    text-align: left;
+    text-shadow: 8px 8px #0401B9;
+    padding-top: 16vh;
+    padding-left: 6vw;
+}

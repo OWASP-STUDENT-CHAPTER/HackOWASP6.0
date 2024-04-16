@@ -3,7 +3,8 @@ import './hamburger.css'
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-import ham from './../../../src/assets/navbar/hamburger.png'
+import TracksPage from '../../pages/TracksPage/trackspage';
+import ham from './../../../src/assets/navbar/hamburger.png';
 
 function ScrollSpyNavigation() {
     useEffect(() => {
@@ -62,7 +63,7 @@ function ScrollSpyNavigation() {
                     <AboutUs />
                 </section>
                 <section id="services">
-                    {/* <TracksPage /> */}
+                    <TracksPage />
                 </section>
                 <section id="timeline">
                     {/* <h1>timeline</h1> */}
