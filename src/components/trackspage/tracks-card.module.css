@@ -1,18 +1,32 @@
 .track_card{
     height: 270px;
-    width: 425px;
+    /* width: 425px; */
     background-color: #1F8FBF;
 }
 
 .track_img{
     height: 183px;
-    width: 425px;
-    color: #AAAAAA;
-    opacity: 54%;
+    /* width: 425px; */
+    fill: #AAAAAA;
+    fill-opacity: 54%;
 }
 
 .track_content{
     display: flex;
+    gap: 6.25rem;
+    padding-top: 1.5rem;
+    align-items: baseline;
+    margin-left: 3%;
+}
+
+.track_content > div{
+    font-family: futilepro;
+    font-size: 25px;
+    color: #F2F252;
+    max-width: 188px;
+    min-width: 188px;
+    text-align: left;
+    text-shadow: 4px 6px 4px #808002;
 }
 
 .track_content > button{
@@ -23,4 +37,7 @@
     box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 4px 8px 0 #0401B9;
     border-color: #EA6032;
     font-family: futilepro;
+    color: #F6DEBA;
+    text-shadow: 0px 4px 4px #000;
+    font-size: 20px;
 }

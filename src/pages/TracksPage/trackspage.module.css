@@ -1,7 +1,7 @@
 .trackspage{
-    height:105vh;
+    height:110vh;
     width:100%;
-    background-image: linear-gradient(#C99F79,#F6DEBA);
+    background-image: linear-gradient(#C99F79,#C99F79);
     /* padding-bottom: 105vh; */
 }
 
@@ -11,6 +11,18 @@
     font-size:100px;
     text-align: left;
     text-shadow: 8px 8px #0401B9;
-    padding-top: 16vh;
+    padding-top: 14vh;
+    padding-bottom: 1.25rem;
     padding-left: 6vw;
+}
+
+.tracks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 55px;
+    grid-template-rows: 1fr 1fr;
+
+    margin-left: 58px;
+    margin-right: 58px;
 }

@@ -6,7 +6,26 @@ const TracksPage = () => {
 	return (
 		<div className={styles.trackspage}>
 			<div className={styles.tracks_heading}>Tracks</div>
-			<div>{/* <TracksCard /> */}</div>
+			<div className={styles.tracks}>
+        <TracksCard 
+          title = 'Open innovation'
+        />
+        <TracksCard 
+          title = 'Cyber sec & Finance'
+        />
+        <TracksCard 
+          title='Hardware'
+        />
+        <TracksCard 
+          title = 'Sustainability'
+        />
+        <TracksCard 
+          title = 'Defence'
+        />
+        <TracksCard 
+          title='Sposor tracks'
+        />
+      </div>
 		</div>
 	);
 };

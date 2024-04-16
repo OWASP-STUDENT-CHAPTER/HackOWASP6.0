@@ -94,7 +94,7 @@ function ScrollSpyNavigation() {
 				<section id="about">
 					<AboutUs />
 				</section>
-				<section id="services">{/* <TracksPage /> */}</section>
+				<section id="services"><TracksPage /></section>
 				<section id="timeline">{/* <h1>timeline</h1> */}</section>
 				<section id="sponsors">
 					<Sponsorpage />

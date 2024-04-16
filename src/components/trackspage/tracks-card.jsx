@@ -1,16 +1,16 @@
-// import React from 'react';
-// import styles from './tracks-card.module.css';
+import React from 'react';
+import styles from './tracks-card.module.css';
 
-// function TracksCard(){
-//     return <div className={styles.track_card}>
-//         <div className={styles.track_img}>
+function TracksCard(props){
+    return <div className={styles.track_card}>
+        <div className={styles.track_img}>
 
-//         </div>
-//         <div className={styles.track_content}>
-//             <div></div>
-//             <button>Details</button>
-//         </div>
-//     </div>
-// }
+        </div>
+        <div className={styles.track_content}>
+            <div>{props.title}</div>
+            <button>Details <span style={{marginLeft:"2rem"}}>&gt;</span></button>
+        </div>
+    </div>
+}
 
-// export default TracksCard;
+export default TracksCard;
