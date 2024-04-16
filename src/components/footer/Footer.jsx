@@ -15,7 +15,7 @@ const Footer = () =>{
                 </h1>
                 <div className={styles.links}>
                     <li><a href={"https://www.instagram.com/owasp_tiet/"}><img src={instagram} alt="instagram" /></a></li>
-                    <li><a href="https://www.linkedin.com/company/owasp-tiet/mycompany/"><img src={linkedin} alt="linkedin" /></a></li>
+                    <li><a href="https://www.linkedin.com/company/owasp-tiet/"><img src={linkedin} alt="linkedin" /></a></li>
                     <li><a href="https://discord.gg/GHemFrRf"><img src={discord} alt="" /></a></li>
                     <li><a href="https://twitter.com/owasp_tiet"><img src={twitter} alt="" /></a></li>
                 </div>
