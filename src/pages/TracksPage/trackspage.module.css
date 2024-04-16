@@ -1,5 +1,5 @@
 .trackspage{
-    height:105vh;
+    height:fit-content;
     width:100%;
     background-image: linear-gradient(#C99F79,#F6DEBA);
     /* padding-bottom: 105vh; */
@@ -11,6 +11,39 @@
     font-size:100px;
     text-align: left;
     text-shadow: 8px 8px #0401B9;
-    padding-top: 16vh;
+    /* padding-top: 16vh; */
     padding-left: 6vw;
+}
+
+
+.gridContainer {
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 300px)); 
+    grid-gap: 20px; /* Adjust the gap between items */
+    padding: 2vw;
+}  
+
+@media screen and (max-width: 480px){
+
+    .gridContainer {
+        grid-template-columns: repeat(auto-fit, minmax(340px, 300px)); 
+        /* padding:.5vw; */
+    }
+    .tracks_heading{
+        font-size:80px;
+        text-align: center;
+        padding-left: 0vw;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+
+    .gridContainer {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 300px)); 
+    }
 }

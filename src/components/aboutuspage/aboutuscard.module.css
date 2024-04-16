@@ -21,3 +21,8 @@
     font-size: 26px;
 }
 
+@media only screen and (max-width: 500px) {
+    .aboutuscard{
+        justify-content: flex-start;
+    }
+}

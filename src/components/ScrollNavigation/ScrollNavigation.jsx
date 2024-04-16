@@ -3,7 +3,7 @@ import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-// import TracksPage from '../../pages/TracksPage/trackspage';
+import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
 
 function ScrollSpyNavigation() {
@@ -53,7 +53,7 @@ function ScrollSpyNavigation() {
 						<a href="#about">About</a>
 					</div>
 					<div className="linksOnNavbar">
-						<a href="#services">Tracks</a>
+						<a href="#tracks">Tracks</a>
 					</div>
 					<div className="linksOnNavbar">
 						{' '}
@@ -94,7 +94,9 @@ function ScrollSpyNavigation() {
 				<section id="about">
 					<AboutUs />
 				</section>
-				<section id="services">{/* <TracksPage /> */}</section>
+				<section id="tracks">
+					<TracksPage />
+				</section>
 				<section id="timeline">{/* <h1>timeline</h1> */}</section>
 				<section id="sponsors">
 					<Sponsorpage />

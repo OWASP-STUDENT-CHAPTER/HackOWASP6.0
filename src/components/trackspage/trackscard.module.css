@@ -1,0 +1,67 @@
+.track_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    background-color: #003042;
+    border-radius: 10px;
+}
+
+.track_img{
+    flex:2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* opacity: 54%; */
+}
+
+.track_img img{
+    width: 100%;
+    height: 100%;
+    /* object-fit:cover; */
+    border-radius: 10px;
+
+}
+
+.tracktitle{
+    width: 10rem;
+    font-family: futilepro;
+    color: #f2f52f;
+    text-shadow: 3px 3px #C99F79;
+    font-size:2rem;
+
+}
+
+.trackcontent{
+    /* flex:1; */
+    background-color: #1F8FBF;
+    padding: 0 15px;
+    display: flex;
+    min-height:5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.trackcontent > button{
+    height: 45px;
+    width: 169px;
+    background-color: #EA6032;
+    /* border-radius: 19px; */
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032;
+    font-family: futilepro;
+    font-size:1.5rem;
+    color:white;
+}
+
+@media screen and (max-width: 480px){
+
+    .tracktitle{
+        font-size:1.5rem;
+        width: 15rem;
+    }
+}
