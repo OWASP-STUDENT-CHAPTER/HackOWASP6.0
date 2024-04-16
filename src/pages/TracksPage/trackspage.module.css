@@ -1,5 +1,5 @@
 .trackspage{
-    height:105vh;
+    height:fit-content;
     width:100%;
     background-image: linear-gradient(#C99F79,#F6DEBA);
     /* padding-bottom: 105vh; */
@@ -22,6 +22,14 @@
     align-items: center;
     padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr)); /* Adjust the column width as needed */
+    grid-template-columns: repeat(auto-fit, minmax(450px, 300px)); /* Adjust the column width as needed */
     grid-gap: 20px; /* Adjust the gap between items */
+    padding: 2vw;
 }  
+
+@media screen and (max-width: 480px){
+
+    .gridContainer {
+        grid-template-columns: repeat(auto-fit, minmax(330px, 300px)); /* Adjust the column width as needed */
+    } 
+}
