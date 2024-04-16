@@ -27,9 +27,11 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    color:black;
-    font-family: futilepro;
-    font-size: 30px;
+    color: #F2F252;
+    font-weight: bolder;
+    text-shadow: 2px 2px #0401B9;
+    font-family: pixelar;
+    font-size: 44px;
 }
 
 .email img{
