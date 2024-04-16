@@ -3,7 +3,7 @@ import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-import TracksPage from '../../pages/TracksPage/trackspage';
+// import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
 
 function ScrollSpyNavigation() {
