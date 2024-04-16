@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../footer/Footer.module.css';
-import email from '../../assets/footer/Group 12.png';
+import email from '../../assets/footer/mailicon.png';
 import instagram from '../../assets/footer/instagram.png';
 import linkedin from '../../assets/footer/linkedin.png';
 import discord from '../../assets/footer/discord.png';
@@ -25,7 +25,8 @@ const Footer = () =>{
                     GET IN TOUCH
                 </h1>
                 <a href="mailto:owasptu@gmail.com" className={styles.email}>
-                    <img src={email} alt="" />
+                    <img src={email} alt="" height="40px"/>
+                    owasptu@gmail.com
                 </a>
             </div>
         </div>

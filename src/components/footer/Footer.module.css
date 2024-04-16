@@ -23,6 +23,19 @@
     /* padding-right: 10rem; */
 }
 
+.email{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-family: futilepro;
+    font-size: 30px;
+}
+
+.email img{
+    padding-right: 10px;
+}
+
 .social > h1{
     font-family: futilepro;
     font-size: 60px;
@@ -86,5 +99,11 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
 }

@@ -1,7 +1,7 @@
 .aboutuscard{
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #EA6032;
     border: solid 4px #1F8FBF;
@@ -19,10 +19,4 @@
     font-family: futilepro;
     padding-bottom: 10px;
     font-size: 26px;
-}
-
-@media only screen and (max-width: 500px) {
-    .aboutuscard{
-        justify-content: flex-start;
-    }
 }
