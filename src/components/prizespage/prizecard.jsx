@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './prizecard.module.css';
-import prize from '../../assets/prizespage/prize&stand.png';
+import prize from '../../assets/prizespage/prize&stand1.png';
 
 
 function PrizeCard(props){

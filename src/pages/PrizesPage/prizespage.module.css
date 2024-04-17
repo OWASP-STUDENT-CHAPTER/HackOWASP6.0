@@ -16,8 +16,10 @@
 
 .prize_container1{
     display: flex;
-    margin-right: 4.8%;
-    margin-left: 4.8%;
+    margin-right: 10%;
+    margin-left: 10%;
+    gap: 234px;
+    /* max-width */
 }
 
 .prize_container2{
