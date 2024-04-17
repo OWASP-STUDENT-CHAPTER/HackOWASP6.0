@@ -4,12 +4,13 @@
 }
 
 .landingcontent {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 18vh;
 }
 
 .landingcontent::-webkit-scrollbar {
