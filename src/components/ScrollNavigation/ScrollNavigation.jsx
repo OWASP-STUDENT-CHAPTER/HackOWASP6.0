@@ -12,22 +12,58 @@ function ScrollSpyNavigation() {
 
 	const [faqs, setFaqs] = useState([
 		{
-			question: "How many programmers does it take to screw a lightbulb?",
+			question: "What is the team size for HackOwasp 5.0?",
 			answer:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+			"A Team can consist of 2-5 members.",
 		open: true
 		},
 		{
-			question: "Who is the most awesome person?",
-			answer: "You! The viewer!",
+			question: "What if I have no team?",
+			answer: "We will club individual members and you may form a team in our discord server as well.",
 			open: false
 		},
 		{
 			question:
-				"How many questions does it take to makes a succesful FAQ Page?",
-			answer: "This many!",
+				"How long is the hackathon going to last?",
+			answer: "Hackathon is going to last for 36 hours",
 			open: false
-		}
+		},
+		{
+			question:
+				"Do I need experience?",
+			answer: "No, you do not need any prior development experience. We will assign you mentors to assist you in figuring things out. Of course, willingness to think, learn, and cooperate is a cherry on the top.",
+			open: false
+		},
+		{
+			question:
+				"Is a working prototype / website of our product required?",
+			answer: "Yes, You will need a functioning prototype of how your product/idea works to pitch it to the judges in the final round.",
+			open: false
+		},
+		{
+			question:
+				"On what basis will the winners be selected?",
+			answer: "The winners of HackOwasp 5.0 will be selected based on Evaluation criteria which will include novelty of the idea, complexity, clarity, and details in the prescribed format, feasibility, practicability, sustainability, the scale of impact, user experience, and potential for prospects.",
+			open: false
+		},
+		{
+			question:
+				"What is the cost of participation",
+			answer: "HackOWASP 6.0 is completely free to participate for everyone.",
+			open: false
+		},
+		{
+			question:
+				"What is the mode of Hackathon?",
+			answer: "HackOWASP 5.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students and ONLINE for all the other students pan India and worldwide",
+			open: false
+		},
+		// {
+		// 	question:
+		// 		"Will required parts be provided for Hardware track?",
+		// 	answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
+		// 	open: false
+		// },
 	]);
 	
 		const toggleFAQ = index => {
@@ -92,11 +128,11 @@ function ScrollSpyNavigation() {
 						<a href="#tracks">Tracks</a>
 					</div>
 					<div className="linksOnNavbar">
-						{' '}
-						<a href="#faqs">faqs</a>
+						<a href="#sponsors">Sponsors</a>
 					</div>
 					<div className="linksOnNavbar">
-						<a href="#sponsors">Sponsors</a>
+						{' '}
+						<a href="#faqs">FAQs</a>
 					</div>
 					<div className="ham">
 						<img
@@ -133,15 +169,16 @@ function ScrollSpyNavigation() {
 				<section id="tracks">
 					<TracksPage />
 				</section>
+				
+				<section id="sponsors">
+					<Sponsorpage />
+				</section>
 				<section id="faqs">
 					<div className="faqs">
 						{faqs.map((faq, index) => (
 						<FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
 						))}
-					</div></section>
-				<section id="sponsors">
-					<Sponsorpage />
-				</section>
+				</div></section>
 			</div>
 		</div>
 	);
