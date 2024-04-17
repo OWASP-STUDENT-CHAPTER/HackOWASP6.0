@@ -9,15 +9,25 @@ function PrizesPage(){
     return <div className={styles.prizespage}>
         <div className={styles.prizes_heading}>Prizes</div>
         <div className={styles.prize_container1}>
+            <div className={styles.second}>
             <PrizeCard 
                 // padding = '110px'
                 padding = '8.3rem'
+                description = 'second'
             />
-            <PrizeCard />
+            </div>
+            <div className={styles.first}>
+            <PrizeCard 
+                description = 'first'
+            />
+            </div>
+            <div className={styles.third}>
             <PrizeCard 
                 // padding = '224px'
                 padding = '13.4rem'
+                description = 'third'
             /> 
+            </div>
         </div>
         <div className={styles.prize_container2}>
             <MiniPrizeCard 
