@@ -3,7 +3,7 @@ import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-import TracksPage from '../../pages/TracksPage/trackspage';
+// import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
 import FAQ from '../../pages/FAQPage/faq';
 import '../../pages/FAQPage/styles.css';
@@ -167,7 +167,7 @@ function ScrollSpyNavigation() {
 					<AboutUs />
 				</section>
 				<section id="tracks">
-					<TracksPage />
+					{/* <TracksPage /> */}
 				</section>
 				
 				<section id="sponsors">
@@ -175,6 +175,7 @@ function ScrollSpyNavigation() {
 				</section>
 				<section id="faqs">
 					<div className="faqs">
+						<div className="faqtitle">FAQs</div>
 						{faqs.map((faq, index) => (
 						<FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
 						))}
