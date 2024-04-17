@@ -12,7 +12,7 @@ function ScrollSpyNavigation() {
 
 	const [faqs, setFaqs] = useState([
 		{
-			question: "What is the team size for HackOwasp 5.0?",
+			question: "What is the team size for HackOwasp 6.0?",
 			answer:
 			"A Team can consist of 2-5 members.",
 		open: true
@@ -43,7 +43,7 @@ function ScrollSpyNavigation() {
 		{
 			question:
 				"On what basis will the winners be selected?",
-			answer: "The winners of HackOwasp 5.0 will be selected based on Evaluation criteria which will include novelty of the idea, complexity, clarity, and details in the prescribed format, feasibility, practicability, sustainability, the scale of impact, user experience, and potential for prospects.",
+			answer: "The winners of HackOwasp 6.0 will be selected based on Evaluation criteria which will include novelty of the idea, complexity, clarity, and details in the prescribed format, feasibility, practicability, sustainability, the scale of impact, user experience, and potential for prospects.",
 			open: false
 		},
 		{
@@ -55,7 +55,7 @@ function ScrollSpyNavigation() {
 		{
 			question:
 				"What is the mode of Hackathon?",
-			answer: "HackOWASP 5.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students and ONLINE for all the other students pan India and worldwide",
+			answer: "HackOWASP 6.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students and ONLINE for all the other students pan India and worldwide",
 			open: false
 		},
 		// {
