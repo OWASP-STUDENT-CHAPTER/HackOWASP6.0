@@ -1,12 +1,48 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
 import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
+import FAQ from '../../pages/FAQPage/faq';
+import '../../pages/FAQPage/styles.css';
 
 function ScrollSpyNavigation() {
+
+	const [faqs, setFaqs] = useState([
+		{
+			question: "How many programmers does it take to screw a lightbulb?",
+			answer:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+		open: true
+		},
+		{
+			question: "Who is the most awesome person?",
+			answer: "You! The viewer!",
+			open: false
+		},
+		{
+			question:
+				"How many questions does it take to makes a succesful FAQ Page?",
+			answer: "This many!",
+			open: false
+		}
+	]);
+	
+		const toggleFAQ = index => {
+			setFaqs(
+			faqs.map((faq, i) => {
+				if (i === index) {
+				faq.open = !faq.open;
+				} else {
+				faq.open = false;
+				}
+				return faq;
+			})
+			);
+		};
+	
 	useEffect(() => {
 		const sections = document.querySelectorAll('section[id]');
 
@@ -57,7 +93,7 @@ function ScrollSpyNavigation() {
 					</div>
 					<div className="linksOnNavbar">
 						{' '}
-						<a href="#timeline">Timeline</a>
+						<a href="#faqs">faqs</a>
 					</div>
 					<div className="linksOnNavbar">
 						<a href="#sponsors">Sponsors</a>
@@ -97,7 +133,12 @@ function ScrollSpyNavigation() {
 				<section id="tracks">
 					<TracksPage />
 				</section>
-				<section id="timeline">{/* <h1>timeline</h1> */}</section>
+				<section id="faqs">
+					<div className="faqs">
+						{faqs.map((faq, index) => (
+						<FAQ faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
+						))}
+					</div></section>
 				<section id="sponsors">
 					<Sponsorpage />
 				</section>
