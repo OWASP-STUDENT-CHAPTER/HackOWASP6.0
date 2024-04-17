@@ -1,7 +1,9 @@
 .landingpage {
     max-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#C99F79, #F6DEBA);
+    /* background-image: linear-gradient(#C99F79, #F6DEBA); */
+    background-image: url("../../assets/galaxy-background.jpg");
+    scroll-snap-align: center;
 }
 
 .landingpage::-webkit-scrollbar {

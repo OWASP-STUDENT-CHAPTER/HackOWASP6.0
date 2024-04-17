@@ -1,7 +1,10 @@
 .trackspage{
     height:fit-content;
     width:100%;
-    background-image: linear-gradient(#C99F79,#C99F79);
+    /* background-image: linear-gradient(#C99F79,#C99F79);
+     */
+    background-image: url("../../assets/galaxy-background.jpg");
+    scroll-snap-align: center;
     /* padding-bottom: 105vh; */
 }
 

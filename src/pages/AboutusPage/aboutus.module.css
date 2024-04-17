@@ -1,8 +1,10 @@
 .aboutus{
     height:105vh;
     width:100%;
-    background-image: linear-gradient(#F6DEBA, #C99F79);
+    /* background-image: linear-gradient(#F6DEBA, #C99F79); */
+    background-image: url("../../assets/galaxy-background.jpg");
     overflow-x: hidden;
+    scroll-snap-align: center;
     /* padding-bottom: 105vh; */
 }
 

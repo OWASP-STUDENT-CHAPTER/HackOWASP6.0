@@ -3,8 +3,9 @@ import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-// import TracksPage from '../../pages/TracksPage/trackspage';
+import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
+import styles from './styles.module.css';
 
 function ScrollSpyNavigation() {
 	useEffect(() => {
@@ -43,7 +44,7 @@ function ScrollSpyNavigation() {
 			hamPopup.style.display === 'none' ? 'flex' : 'none';
 	};
 	return (
-		<div>
+		<div className={styles.main}>
 			<div className="side-bar">
 				<div className="navigation">
 					<div className="home">
@@ -95,7 +96,7 @@ function ScrollSpyNavigation() {
 					<AboutUs />
 				</section>
 				<section id="tracks">
-					{/*<TracksPage />*/}
+					<TracksPage />
 				</section>
 				<section id="timeline">{/* <h1>timeline</h1> */}</section>
 				<section id="sponsors">
