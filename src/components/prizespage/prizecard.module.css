@@ -1,0 +1,21 @@
+.prizecard{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 4.2rem;
+    /* gap: 69px; */
+    align-items: center;
+}
+
+
+
+.prize_description{
+    height: 181px;
+    width: 224px;
+    background-image: linear-gradient(#EA6032,#C99F79 46%);
+    border: solid;
+    border-width: 6px;
+    border-color: #1F8FBF;
+    border-radius: 45px;
+}
