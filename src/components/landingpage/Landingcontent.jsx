@@ -6,7 +6,6 @@ import folder from '../../assets/landingpage/folder.png'
 import sand from '../../assets/landingpage/sand.png'
 import computer from '../../assets/landingpage/computer.png'
 
-
 const Landingcontent = () => {
   
   React.useEffect(() => {

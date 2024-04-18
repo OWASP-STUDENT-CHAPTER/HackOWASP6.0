@@ -55,15 +55,15 @@ function ScrollSpyNavigation() {
 		{
 			question:
 				"What is the mode of Hackathon?",
-			answer: "HackOWASP 6.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students and ONLINE for all the other students pan India and worldwide",
+			answer: "HackOWASP 6.0 is being conducted in HYBRID mode that is OFFLINE for SELECT Thapar University students and ONLINE for all the other students pan India and worldwide",
 			open: false
 		},
-		// {
-		// 	question:
-		// 		"Will required parts be provided for Hardware track?",
-		// 	answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
-		// 	open: false
-		// },
+		{
+			question:
+				"Will hardware be provided during the hack?",
+			answer: "No. Any team choosing to work on any hardware-based project will have to bring and use their own components and team OWASP will NOT be providing any hardware accessories.",
+			open: false
+		},
 	]);
 	
 		const toggleFAQ = index => {

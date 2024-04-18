@@ -4,6 +4,8 @@
 }
 
 .landingcontent {
+    /* position: relative; */
+    /* z-index: 200; */
     height: fit-content;
     width: 100%;
     display: flex;
@@ -26,6 +28,8 @@
 }
 
 .hackowasptitle {
+    /* position: relative; */
+    /* z-index: 900; */
     font-family: futilepro;
     color: #EA6032;
     font-size: 150px;
