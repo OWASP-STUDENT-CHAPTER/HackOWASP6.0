@@ -41,12 +41,12 @@ function ScrollSpyNavigation() {
 			answer: "Yes, You will need a functioning prototype of how your product/idea works to pitch it to the judges in the final round.",
 			open: false
 		},
-		{
-			question:
-				"On what basis will the winners be selected?",
-			answer: "The winners of HackOwasp 6.0 will be selected based on Evaluation criteria which will include novelty of the idea, complexity, clarity, and details in the prescribed format, feasibility, practicability, sustainability, the scale of impact, user experience, and potential for prospects.",
-			open: false
-		},
+		// {
+		// 	question:
+		// 		"On what basis will the winners be selected?",
+		// 	answer: "The winners of HackOwasp 6.0 will be selected based on Evaluation criteria which will include novelty of the idea, complexity, clarity, and details in the prescribed format, feasibility, practicability, sustainability, the scale of impact, user experience, and potential for prospects.",
+		// 	open: false
+		// },
 		{
 			question:
 				"What is the cost of participation",
@@ -56,15 +56,15 @@ function ScrollSpyNavigation() {
 		{
 			question:
 				"What is the mode of Hackathon?",
-			answer: "HackOWASP 6.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students and ONLINE for all the other students pan India and worldwide",
+			answer: "HackOWASP 6.0 is being conducted in HYBRID mode that is OFFLINE for Thapar University students only and ONLINE for all the other students pan India and worldwide",
 			open: false
 		},
-		// {
-		// 	question:
-		// 		"Will required parts be provided for Hardware track?",
-		// 	answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
-		// 	open: false
-		// },
+		{
+		 	question:
+				"Will hardware be provided for the hardware track?",
+			answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
+			open: false
+		},
 	]);
 	
 		const toggleFAQ = index => {
