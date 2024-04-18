@@ -3,8 +3,8 @@
     flex-direction: column;
     height: fit-content;
     width: fit-content;
-    gap: 4.2rem;
-    /* gap: 69px; */
+    gap: 1.5rem;
+    /* gap: 25px; */
     align-items: center;
 }
 

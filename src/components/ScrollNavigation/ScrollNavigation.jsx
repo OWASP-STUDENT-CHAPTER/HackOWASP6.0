@@ -129,11 +129,11 @@ function ScrollSpyNavigation() {
 						<a href="#tracks">Tracks</a>
 					</div>
 					<div className="linksOnNavbar">
-						<a href="#sponsors">Sponsors</a>
-					</div>
-					<div className="linksOnNavbar">
 						{' '}
 						<a href="#prizes">Prizes</a>
+					</div>
+					<div className="linksOnNavbar">
+						<a href="#sponsors">Sponsors</a>
 					</div>
 					<div className="ham">
 						<img
@@ -153,7 +153,7 @@ function ScrollSpyNavigation() {
 					</div>
 					<div className="ham-icons">
 						{' '}
-						<a href="#timeline">Timeline</a>
+						<a href="#prizes">Prizes</a>
 					</div>
 					<div className="ham-icons">
 						<a href="#sponsors">Sponsors</a>
