@@ -98,11 +98,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    /* background-image: url('../../assets/trackspage/description.svg'); */
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
-    padding: 20px;
+    padding: 60px;
     border-radius: 8px;
     z-index: 9999;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 .popup_inner {
