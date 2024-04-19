@@ -1,68 +1,69 @@
 import React, { Component } from 'react';
 import anime from 'animejs/lib/anime.es.js'; // Import anime.js library
-import './starfield.css';
+import './starfield.css'
 
 class StarrySky extends Component {
+
     state = {
-        num: 200,
-        vw: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-        vh: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+    num: 180,
+    vw: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+    vh: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
     };
 
     starryNight = () => {
-        anime({
+    anime({
         targets: "#sky .star",
         opacity: [
-            { duration: 400, value: "0" },
-            { duration: 400, value: "1" }
+        { duration: 300, value: "0" },
+        { duration: 300, value: "1" }
         ],
         easing: "linear",
         loop: true,
         delay: (el, i) => 50 * i
-        });
+    });
     };
 
     shootingStars = () => {
-        anime({
-        targets: "#shootingstars .wish",
+    anime({
+        targets: ["#shootingstars .wish"],
         easing: "linear",
         loop: true,
-        delay: (el, i) => 1000 * i,
+        delay: (el, i) => 600 * i,
         opacity: [
-            { duration: 700, value: "1" }
+        { duration: 600, value: "1" }
         ],
         width: [
-            { value: "150px" },
-            { value: "0px" }
+        { value: "150px" },
+        { value: "0px" }
         ],
         translateX: 350
-        });
+    });
     };
 
     randomRadius = () => {
-        return Math.random() * 0.7 + 0.6;
+    return Math.random() * 0.7 + 0.7;
     };
 
     getRandomX = () => {
-        return Math.floor(Math.random() * Math.floor(this.state.vw)).toString();
+    return Math.floor(Math.random() * Math.floor(this.state.vw)).toString();
     };
 
     getRandomY = () => {
-        return Math.floor(Math.random() * Math.floor(this.state.vh)).toString();
+    return Math.floor(Math.random() * Math.floor(this.state.vh)).toString();
     };
 
     componentDidMount() {
-        this.starryNight();
-        this.shootingStars();
+    this.starryNight();
+    this.shootingStars();
     }
 
     render() {
-        const { num } = this.state;
-        return (
+    const { num } = this.state;
+    return (
         <div id="App">
-            <svg id="sky">
+        <svg id="sky">
             {[...Array(num)].map((x, y) => (
-                <circle
+            <circle
                 cx={this.getRandomX()}
                 cy={this.getRandomY()}
                 r={this.randomRadius()}
@@ -71,11 +72,11 @@ class StarrySky extends Component {
                 fill="white"
                 key={y}
                 className="star"
-                />
+            />
             ))}
-            </svg>
-            <div id="shootingstars">
-            {[...Array(50)].map((x, y) => (
+        </svg>
+        <div id="shootingstars">
+            {[...Array(60)].map((x, y) => (
                 <div
                 key={y}
                 className="wish"
@@ -85,10 +86,10 @@ class StarrySky extends Component {
                 }}
                 />
             ))}
-            </div>
         </div>
-        );
+        </div>
+    );
     }
-}
+    }
 
 export default StarrySky;
