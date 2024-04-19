@@ -8,6 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.ham-icons a{
+  box-shadow: #0401B9;
+}
+
 /* 
 body {
   font-family: 'Montserrat', sans-serif;
