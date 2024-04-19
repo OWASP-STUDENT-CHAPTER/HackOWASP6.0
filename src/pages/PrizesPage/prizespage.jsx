@@ -3,7 +3,7 @@ import styles from './prizespage.module.css';
 import PrizeCard from '../../components/prizespage/prizecard';
 // import MiniPrizeCard from '../../components/prizespage/miniprizecard';
 // import Arduino from '../../assets/prizespage/arduino.png';
-import Hardware from '../../assets/prizespage/hardware.png';
+import Hardware from '../../assets/prizespage/hardware1.png';
 import FirstYears from '../../assets/prizespage/firstyear.png';
 import FirstPrize from '../../assets/prizespage/first_prize.png';
 import SecondPrize from '../../assets/prizespage/second_prize.png';
