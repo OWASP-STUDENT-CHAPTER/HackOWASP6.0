@@ -59,7 +59,7 @@ function ScrollSpyNavigation() {
 			open: false
 		},
 		{
-		 	question:
+			question:
 				"Will hardware be provided for the hardware track?",
 			answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
 			open: false
@@ -152,7 +152,7 @@ function ScrollSpyNavigation() {
 					</div>
 					<div className="ham-icons">
 						{' '}
-						<a href="#timeline">Timeline</a>
+						<a href="#faqs">FAQs</a>
 					</div>
 					<div className="ham-icons">
 						<a href="#sponsors">Sponsors</a>
