@@ -5,7 +5,7 @@ import TracksCard from '../../components/trackspage/trackscard';
 // import sustainability from '../../assets/trackspage/sustainability.gif'
 import hardware from '../../assets/trackspage/hardware.gif'
 // import openinnovation from '../../assets/trackspage/openinnovation.gif'
-import tank from '../../assets/trackspage/tank.gif'
+// import tank from '../../assets/trackspage/tank.gif'
 // import mountain from '../../assets/trackspage/mountain.gif'
 import hack from '../../assets/trackspage/hack.gif'
 import tech from '../../assets/trackspage/tech.gif'
@@ -34,7 +34,7 @@ const TracksList = [
 		title: "Hardware",
 		src: hardware,
         alt: "robot",
-        description:"From electronics to IoT devices and beyond,  creativity and innovation in Hardware lets you to push the boundaries of physical computing and realize your visions. Design and prototype innovative solutions that address real-world challenges and enhance user experiences. Whether you\'re an experienced hardware enthusiast or a curious beginner, this is a chance to explore, experiment, and create groundbreaking hardware innovations."
+        description:"From electronics to IoT devices and beyond,  creativity and innovation in Hardware lets you to push the boundaries of physical computing and realize your visions. Design and prototype innovative solutions that address real-world challenges and enhance user experiences. Whether you're an experienced hardware enthusiast or a curious beginner, this is a chance to explore, experiment, and create groundbreaking hardware innovations."
 
     },
     {
