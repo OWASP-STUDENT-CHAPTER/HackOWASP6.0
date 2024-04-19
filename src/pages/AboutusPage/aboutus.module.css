@@ -3,7 +3,7 @@
     width:100%;
     /* background-image: linear-gradient(#42495C,#09101A); */
     background-color: transparent;
-    overflow-x: hidden;
+    overflow: hidden;
     /* padding-bottom: 105vh; */
 }
 
