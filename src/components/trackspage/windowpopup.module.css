@@ -3,8 +3,13 @@
 display: flex;
 }
 .box {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.windowpopup{
+    position: absolute;
+
 }
 
 .container {
@@ -18,6 +23,7 @@ border-radius: 20px;
 width: calc(100% - 121px) !important;
 background-size: cover;
 padding-left: 20px;
+z-index: 100;
 }
 
 .LM {

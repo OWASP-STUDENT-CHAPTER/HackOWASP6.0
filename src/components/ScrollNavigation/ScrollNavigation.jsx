@@ -3,7 +3,7 @@ import './hamburger.css';
 import AboutUs from '../../pages/AboutusPage/aboutus';
 import LandingPage from '../../pages/Landingpage/landingpage';
 import Sponsorpage from '../../pages/SponsorPage/sponsorpage';
-// import TracksPage from '../../pages/TracksPage/trackspage';
+import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
 import FAQ from '../../pages/FAQPage/faq';
 import '../../pages/FAQPage/styles.css';
@@ -60,7 +60,7 @@ function ScrollSpyNavigation() {
 			open: false
 		},
 		{
-		 	question:
+			question:
 				"Will hardware be provided for the hardware track?",
 			answer: "No. Any team choosing to work on the Hardware track will have to use their own equipment and team OWASP will NOT be providing any hardware accessories.",
 			open: false
@@ -153,7 +153,7 @@ function ScrollSpyNavigation() {
 					</div>
 					<div className="ham-icons">
 						{' '}
-						<a href="#prizes">Prizes</a>
+						<a href="#faqs">FAQs</a>
 					</div>
 					<div className="ham-icons">
 						<a href="#sponsors">Sponsors</a>
@@ -168,7 +168,7 @@ function ScrollSpyNavigation() {
 					<AboutUs />
 				</section>
 				<section id="tracks">
-					{/* <TracksPage /> */}
+					<TracksPage />
 				</section>
 				<section id="prizes">
 					<PrizesPage />
