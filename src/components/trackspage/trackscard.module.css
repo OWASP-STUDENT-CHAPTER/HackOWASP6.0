@@ -92,16 +92,25 @@
 }
 
 
-
 .popup {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 1px solid rgba(0, 0, 0, 0.38);
     /* background-image: url('../../assets/trackspage/description.svg'); */
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.85); */
     color: #fff;
+    /* background-color: #EA6032;
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032; */
     padding: 60px;
     border-radius: 8px;
     z-index: 9999;
@@ -129,4 +138,13 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+@media screen and (max-width:500px) {
+    .popupdescription{
+        font-family: pixelar;
+        font-size: 1.3rem;
+        padding: 2vh 0;
+    }
+    
 }
