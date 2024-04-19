@@ -1,34 +1,8 @@
 import React, { useState } from 'react';
 import styles from './trackscard.module.css';
 
-const TrackDescription = [
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-    {
-        heading:"Open Innovation",
-        description:"Explore boundless creativity and collaboration in the Open Innovation track. Break down barriers and unlock new possibilities as you tackle real-world challenges with fellow participants. Harness the power of open-source technologies and interdisciplinary teamwork to craft innovative solutions that could shape the future. Let your imagination run wild and make a meaningful impact through open innovation."
-    },
-]
 
-function TracksCard({ id, title, alt, src }) {
+function TracksCard({ id, title, alt, src, popupheading, popupcontent }) {
     const [showPopup, setShowPopup] = useState(false);
 
     const togglePopup = () => {
@@ -46,17 +20,15 @@ function TracksCard({ id, title, alt, src }) {
             <div className={styles.tracktitle}>{title}</div>
             {showPopup && (
             <div className={styles.popup}>
-                <div className={styles.popup_inner}>
-                {TrackDescription.map((track) => (
-					<div className={styles.popupcontent}>
+                <div className={styles.popup_inner}>					
+                    <div className={styles.popupcontent}>
                         <div className={styles.popupheading}>
-                            {track.heading}
+                            {title}
                         </div>
                         <div className={styles.popupdescription}>
-                            {track.description}
+                            {popupcontent}
                         </div>
                     </div>
-				))}
                 <button className={styles.popupbutton} onClick={togglePopup}>Close</button>
                 </div>
             </div>
