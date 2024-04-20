@@ -1,21 +1,117 @@
 .prizecard{
     display: flex;
     flex-direction: column;
-    height: fit-content;
-    width: fit-content;
+    height: 470px;
+    width: 302px;
+    background-color: #BEC8CB;
+    border: solid;
+    border-color:#1F8FBF;
+    border-width: 8px;
+    border-radius: 52px;
     gap: 1.5rem;
     /* gap: 25px; */
     align-items: center;
+    justify-content: center;
+}
+
+.popupcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.heading, .popupheading{
+    width: 10rem;
+    font-family: futilepro;
+    color: #f2f52f;
+    text-shadow: 3px 3px #C99F79;
+    font-size:2rem;
 }
 
 
+.popupbutton{
+    height: 45px;
+    width: 169px;
+    background-color: #EA6032;
+    border-radius: 19px;
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032;
+    font-family: futilepro;
+    font-size:1.5rem;
+    color:white;
+}
 
-.prize_description{
+/* .prize_description{
     height: 227.94px;
-    width: 330.47px;
+    width: 302px;
     background-image: linear-gradient(#EA6032,#C99F79 46%);
     border: solid;
     border-width: 6px;
     border-color: #1F8FBF;
     border-radius: 45px;
+} */
+
+.popupdescription{
+    font-family: pixelar;
+    font-size: 1.8rem;
+    padding: 5vh 0;
+
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    /* background-image: url('../../assets/trackspage/description.svg'); */
+    /* background-color: rgba(0, 0, 0, 0.85); */
+    color: #fff;
+    /* background-color: #EA6032;
+    box-shadow: 4px 4px 0 #0401B9;
+    border-color: #EA6032; */
+    padding: 60px;
+    border-radius: 8px;
+    z-index: 9999;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.popup_inner {
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 60vw;
+}
+
+.popup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.popup button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:500px) {
+    .popupdescription{
+        font-family: pixelar;
+        font-size: 1.3rem;
+        padding: 2vh 0;
+    }
+    
 }
