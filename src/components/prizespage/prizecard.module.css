@@ -3,14 +3,15 @@
     flex-direction: column;
     height: 470px;
     width: 302px;
-    background-color: #BEC8CB;
+    background-color: #1C2431;
     border: solid;
     border-color:#1F8FBF;
     border-width: 8px;
-    border-radius: 52px;
+    border-radius:14px;
     gap: 1.5rem;
     /* gap: 25px; */
     align-items: center;
+    box-shadow: 6px 6px #EA6032;
     justify-content: center;
 }
 
