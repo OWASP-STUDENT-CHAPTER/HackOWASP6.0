@@ -24,10 +24,10 @@ const TracksList = [
     },
     {
         id: 2,
-		title: "Cyber Sec & Finance",
+		title: "Cybersecurity",
 		src: hack,
         alt: "coding",
-        description:"In an era of rapid digital transformation, the imperative to secure financial systems and data is paramount, underlining the critical intersection of cybersecurity and finance. Dive deep into this, leveraging cutting-edge technologies and strategic approaches to safeguard financial transactions and fend off cyber threats. Shape the future of cybersecurity in finance and ensure the integrity of global financial systems."
+        description:"In an era of rapid digital transformation, the imperative to secure financial systems and data is paramount, underlining the critical intersection of cybersecurity and finance.Dive deep into this, leveraging cutting-edge technologies and strategic approaches to safeguard financial transactions and fend off cyber threats. Shape the future of cybersecurity in finance and ensure the integrity of global financial systems"
     },
     {
         id: 3,

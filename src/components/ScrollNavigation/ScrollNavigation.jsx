@@ -16,7 +16,7 @@ function ScrollSpyNavigation() {
 			question: "What is the team size for HackOwasp 6.0?",
 			answer:
 			"A Team can consist of 2-5 members.",
-		open: true
+		open: false
 		},
 		{
 			question: "What if I have no team?",
