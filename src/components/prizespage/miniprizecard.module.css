@@ -1,0 +1,27 @@
+.mini_card{
+    display: flex;
+    /* gap:92px; */
+    gap: 6rem;
+}
+
+.description{
+    /* height: 128px; */
+    height: 8rem;
+    /* width: 658px; */
+    width: 40rem;
+    background-image: linear-gradient(#EA6032,#C99F79 46%);
+    border: solid;
+    border-radius: 45px;
+    border-width: 6px;
+    border-color: #1F8FBF;
+}
+
+@media screen and (max-width:480px) {
+    .mini_card{
+    flex-direction: column;
+    }
+    .description{
+        height: 14rem;
+        width: 15rem;
+    }
+}

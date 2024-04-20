@@ -7,6 +7,7 @@ import TracksPage from '../../pages/TracksPage/trackspage';
 import ham from './../../../src/assets/navbar/hamburger.png';
 import FAQ from '../../pages/FAQPage/faq';
 import '../../pages/FAQPage/styles.css';
+import PrizesPage from '../../pages/PrizesPage/prizespage';
 
 function ScrollSpyNavigation() {
 
@@ -128,11 +129,11 @@ function ScrollSpyNavigation() {
 						<a href="#tracks">Tracks</a>
 					</div>
 					<div className="linksOnNavbar">
-						<a href="#sponsors">Sponsors</a>
+						{' '}
+						<a href="#prizes">Prizes</a>
 					</div>
 					<div className="linksOnNavbar">
-						{' '}
-						<a href="#faqs">FAQs</a>
+						<a href="#sponsors">Sponsors</a>
 					</div>
 					<div className="ham">
 						<img
@@ -169,11 +170,13 @@ function ScrollSpyNavigation() {
 				<section id="tracks">
 					<TracksPage />
 				</section>
-				
+				<section id="prizes">
+					<PrizesPage />
+				</section>
 				<section id="sponsors">
 					<Sponsorpage />
 				</section>
-				<section id="faqs">
+				<section>
 					<div className="faqs">
 						<div className="faqtitle">FAQs</div>
 						{faqs.map((faq, index) => (
