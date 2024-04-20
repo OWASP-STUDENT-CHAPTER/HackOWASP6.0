@@ -18,7 +18,11 @@ function PrizeCard(props){
                             {props.title}
                         </div>
                         <div className={styles.popupdescription}>
-                            {props.popupcontent}
+                            {props.popupcontent.map((prize)=>(
+                                <div>
+                                    {prize}
+                                </div>
+                            ))}
                         </div>
                     </div>
                     <button className={styles.popupbutton} onClick={togglePopup}>Close</button>
