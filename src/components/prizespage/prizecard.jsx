@@ -19,8 +19,8 @@ function PrizeCard(props){
                         </div>
                         <div className={styles.popupdescription}>
                             {props.popupcontent.map((prize)=>(
-                                <div>
-                                    {prize}
+                                <div className={styles.prizes}>
+                                    <div>&#x2022;</div>{prize}
                                 </div>
                             ))}
                         </div>

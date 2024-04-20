@@ -56,7 +56,7 @@
     font-family: pixelar;
     font-size: 1.8rem;
     padding: 5vh 0;
-
+    row-gap: 2rem;
 }
 
 .popup {
@@ -105,6 +105,17 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.popupdescription > div{
+    display: flex;
+    gap:2rem;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+
+.prizes{
+    margin-bottom: 2vh;
 }
 
 @media screen and (max-width:500px) {
