@@ -149,11 +149,11 @@ function ScrollSpyNavigation() {
 						<a href="#about">About</a>
 					</div>
 					<div className="ham-icons">
-						<a href="#services">Tracks</a>
+						<a href="#tracks">Tracks</a>
 					</div>
 					<div className="ham-icons">
 						{' '}
-						<a href="#faqs">FAQs</a>
+						<a href="#prizes">Prizes</a>
 					</div>
 					<div className="ham-icons">
 						<a href="#sponsors">Sponsors</a>
